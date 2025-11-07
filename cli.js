@@ -7,11 +7,6 @@ const chalk = require("chalk");
 const inquirer = require("inquirer");
 const clear = require("clear");
 const open = require("open");
-const fs = require('fs');
-const request = require('request');
-const path = require('path');
-const ora = require('ora');
-const cliSpinners = require('cli-spinners');
 clear();
 
 const prompt = inquirer.createPromptModule();
@@ -56,7 +51,7 @@ const questions = [
 const data = {
     name: chalk.bold.green("             Shrikant Badwaik"),
     handle: chalk.white("@shrikantbadwaik"),
-    work: `${chalk.white("Software Engineer at")} ${chalk
+    work: `${chalk.white("Senior Software Engineer at")} ${chalk
         .hex("#00B14F")
         .bold("Grab Holdings Inc.")}`,
     twitter: chalk.gray("https://x.com/") + chalk.cyan("00shrikant00"),
@@ -68,7 +63,6 @@ const data = {
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-    labelEmail: chalk.white.bold("      Email:"),
     labelCard: chalk.white.bold("       Card:")
 };
 
@@ -81,7 +75,6 @@ const me = boxen(
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
         `${data.labelLinkedIn}  ${data.linkedin}`,
-        `${data.labelEmail}  ${data.email}`,
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
