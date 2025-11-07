@@ -1,6 +1,6 @@
 {
   "name": "shrikant",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal card for Shrikant Badwaik (@shrikantbadwaik)",
   "main": "cli.js",
   "bin": {
