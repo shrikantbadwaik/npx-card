@@ -62,7 +62,6 @@ const data = {
     twitter: chalk.gray("https://x.com/") + chalk.cyan("00shrikant00"),
     github: chalk.gray("https://github.com/") + chalk.green("shrikantbadwaik"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("shrikant-badwaik"),
-    email: chalk.gray("mailto:") + chalk.yellow("shrikant.badwaik@gmail.com"),
     npx: chalk.red("npx") + " " + chalk.white("shrikant"),
 
     labelWork: chalk.white.bold("       Work:"),
